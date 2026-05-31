@@ -92,3 +92,31 @@ Encompasses information derived from multiple modalities with heterogeneous char
 ---
 
 ## 3. Visual Representation
+
+```mermaid
+flowchart TD
+    MV[MULTI-VIEW DATA]
+    
+    MV --> SC[Source-based Classification]
+    MV --> MC[Modality-based Classification]
+    
+    SC --> P[Platforms]
+    SC --> S[Sensors]
+    
+    S --> HOMO[Homogeneous<br>Same modality, different views]
+    S --> HETE[Heterogeneous<br>Different modalities or sources]
+    
+    MC --> SM[Single-modal]
+    MC --> MM[Multi-modal]
+    
+    SM --> IMG[Images]
+    SM --> VID[Videos]
+    
+    MM --> RGBD[RGB + Depth]
+    MM --> RGBL[RGB + LiDAR]
+    MM --> RGBT[RGB + Text]
+    
+    P --> EX1[Databases, Web Services]
+    HOMO --> EX2[Multi-camera arrays]
+    HETE --> EX3[Camera + LiDAR + Radar]
+    
