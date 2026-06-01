@@ -137,21 +137,6 @@ Datasets that support vision-language and multi-modal reasoning:
 
 ---
 
-## 📖 How to Cite
-
-If you use this resource for your research, please cite our paper:
-
-```bibtex
-@article{hajri2026comprehensive,
-  title={A Comprehensive Review of Multi-View Datasets and Applications},
-  author={Hajri, Feten and [other authors]},
-  journal={The Visual Computer},
-  year={2026},
-  publisher={Springer}
-}
-
----
-
 ## 🤝 Contributing
 
 This is a **living resource**. To add a new multi-view dataset or correct an entry:
@@ -216,3 +201,18 @@ University of Sousse, National Engineering School of Sousse (ENISo),
 ## ⭐ Star this repo
 
 If you find this resource useful for your research, please **star** this repository and share it with colleagues!
+
+---
+
+## 📖 How to Cite
+
+If you use this resource for your research, please cite our paper:
+
+```bibtex
+@article{hajri2026comprehensive,
+  title={A Comprehensive Review of Multi-View Datasets and Applications},
+  author={Hajri, Feten and [other authors]},
+  journal={The Visual Computer},
+  year={2026},
+  publisher={Springer}
+}
