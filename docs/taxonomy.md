@@ -120,3 +120,30 @@ flowchart TD
     HOMO --> EX2[Multi-camera arrays]
     HETE --> EX3[Camera + LiDAR + Radar]
     
+
+---
+
+## 4. Summary Table
+
+| Classification | Subcategory | Key Feature | Example |
+|----------------|-------------|-------------|---------|
+| **Source-based** | Platforms | Multiple data origins | Social media + medical records |
+| | Homogeneous sensors | Same modality, different views | Multi-camera array |
+| | Heterogeneous sensors | Different modalities | Camera + LiDAR |
+| **Modality-based** | Single-modal (image) | Static, multi-angle | Multi-view stereo |
+| | Single-modal (video) | Dynamic, multi-angle | Sports analytics |
+| | Multi-modal | Different data types | RGB + Depth + Text |
+
+---
+
+## 5. Why This Taxonomy Matters
+
+Our survey prioritizes **modality-based classification** over source-based classification because:
+
+1. Modality directly dictates algorithmic choices
+2. Single-modality datasets support vision encoder pre-training (e.g., DINOv2, SAM)
+3. Multi-modality datasets enable Large Multimodal Models (LMMs) for vision-language and embodied AI research
+
+---
+
+*Reference: Section 2 of "A Comprehensive Review of Multi-View Datasets and Applications", The Visual Computer, 2026*
