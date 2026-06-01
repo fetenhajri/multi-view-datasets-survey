@@ -35,13 +35,24 @@ Our survey identified **120 public multi-view datasets** published since 2018. T
 - [Domain-Specific Recommendations](#domain-specific-recommendations)
 - [Cross-Modal Annotations](#cross-modal-annotations)
 - [How to Cite](#how-to-cite)
+
+## 📚 Table of Contents
+
+- [Quick Overview](#quick-overview)
+- [Dataset Statistics](#dataset-statistics)
+- [Dataset Selection Decision Framework](#dataset-selection-decision-framework)
+- [Repository Contents](#repository-contents)
+- [How to Use This Resource](#how-to-use-this-resource)
+- [Domain-Specific Recommendations](#domain-specific-recommendations)
+- [Cross-Modal Annotations](#cross-modal-annotations)
+- [How to Cite](#how-to-cite)
 - [Contributing](#contributing)
 - [License](#license)
 - [Contact](#contact)
-
 ------
 
 ## 📊 Quick Overview
+#quick-overview
 
 | Category | Number of Datasets | Key Applications |
 |----------|-------------------|------------------|
@@ -124,7 +135,7 @@ Use our decision flowchart (Fig. 2 from the paper) to select the right dataset:
 ---
 
 ## 🔗 Cross-Modal Annotations
-
+#cross-modal-annotations
 Datasets that support vision-language and multi-modal reasoning:
 
 | Dataset | Modalities | Annotation Type |
@@ -149,3 +160,62 @@ If you use this resource for your research, please cite our paper:
   year={2026},
   publisher={Springer}
 }
+## 🤝 Contributing
+
+This is a **living resource**. To add a new multi-view dataset or correct an entry:
+
+1. Open an issue or pull request
+2. Provide: Name, year, modality, application, number of views, resolution, and official link
+3. We will verify and update
+
+**Note:** Only datasets that are:
+- ✅ Publicly available
+- ✅ Multi-view (at least 2 views/modalities)
+- ✅ Published after 2018
+- ✅ Well documented
+
+### How to contribute a new dataset
+
+You can contribute by:
+- **Creating an issue** with the dataset details
+- **Submitting a pull request** adding the dataset to `datasets.csv`
+
+---
+
+## 📜 License
+
+This repository is under **CC BY-NC 4.0** (attribution, non-commercial). 
+
+The paper is published by Springer under their copyright policy.
+
+You are free to:
+- **Share** — copy and redistribute the material
+- **Adapt** — remix, transform, and build upon the material
+
+Under the following terms:
+- **Attribution** — You must give appropriate credit
+- **NonCommercial** — You may not use the material for commercial purposes
+
+---
+
+## ✉️ Contact
+
+**Corresponding author:** Feten Hajri  
+📧 feten.hajri@isitcom.u-sousse.tn
+
+**Institution:**  
+University of Sousse  
+Higher Institute of Computer Science and Communication Technologies (ISITCom)  
+Sousse, Tunisia
+
+**Co-authors:** (add your co-authors' affiliations as needed)
+
+### Connect with us:
+- GitHub Issues: For questions about the repository
+- Email: For direct correspondence about the paper
+
+---
+
+## ⭐ Star this repo
+
+If you find this resource useful for your research, please **star** this repository and share it with colleagues!
