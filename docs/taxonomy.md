@@ -119,7 +119,7 @@ flowchart TD
     P --> EX1[Databases, Web Services]
     HOMO --> EX2[Multi-camera arrays]
     HETE --> EX3[Camera + LiDAR + Radar]
-    
+```
 
 ---
 
