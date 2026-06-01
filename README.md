@@ -53,7 +53,7 @@ Our survey identified **120 public multi-view datasets** published since 2018. T
 
 ---
 
-## 📈 Dataset Statistics
+## Dataset Statistics
 
 - **120+ datasets** reviewed
 - **Release years:** 2018–2025
@@ -67,7 +67,7 @@ Our survey identified **120 public multi-view datasets** published since 2018. T
 
 ---
 
-## 🗺️ Dataset Selection Decision Framework
+## Dataset Selection Decision Framework
 
 Use our decision flowchart (Fig. 2 from the paper) to select the right dataset:
 
@@ -75,7 +75,7 @@ Use our decision flowchart (Fig. 2 from the paper) to select the right dataset:
 
 ---
 
-## 📁 Repository Contents
+## Repository Contents 📁
 
 | File | Description |
 |------|-------------|
@@ -92,7 +92,7 @@ Use our decision flowchart (Fig. 2 from the paper) to select the right dataset:
 
 ---
 
-## 🔍 How to Use This Resource
+## How to Use This Resource
 
 ### 1. Find a dataset for your task
 - Open [`datasets.csv`](datasets.csv) and filter by "Application" column
@@ -108,7 +108,7 @@ Use our decision flowchart (Fig. 2 from the paper) to select the right dataset:
 
 ---
 
-## 🎯 Domain-Specific Recommendations
+## Domain-Specific Recommendations
 
 | Domain | Recommended Datasets | Key Characteristics |
 |--------|---------------------|---------------------|
@@ -122,7 +122,7 @@ Use our decision flowchart (Fig. 2 from the paper) to select the right dataset:
 
 ---
 
-## 🔗 Cross-Modal Annotations
+## Cross-Modal Annotations
 #cross-modal-annotations
 Datasets that support vision-language and multi-modal reasoning:
 
@@ -137,7 +137,7 @@ Datasets that support vision-language and multi-modal reasoning:
 
 ---
 
-## 🤝 Contributing
+## Contributing 🤝
 
 This is a **living resource**. To add a new multi-view dataset or correct an entry:
 
@@ -159,7 +159,7 @@ You can contribute by:
 
 ---
 
-## 📜 License
+## License 📜 
 
 This repository is under **CC BY-NC 4.0** (attribution, non-commercial). 
 
@@ -199,13 +199,13 @@ University of Sousse, National Engineering School of Sousse (ENISo),
 
 ---
 
-## ⭐ Star this repo
+## Star this repo⭐ 
 
 If you find this resource useful for your research, please **star** this repository and share it with colleagues!
 
 ---
 
-## 📖 How to Cite
+## How to Cite📖 
 
 If you use this resource for your research, please cite our paper:
 
@@ -217,3 +217,4 @@ If you use this resource for your research, please cite our paper:
   year={2026},
   publisher={Springer}
 }
+```
