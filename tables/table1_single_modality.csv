@@ -1,1 +1,39 @@
 
+Dataset,Category,Resolution,Size,Overlap,Cameras/Views,fps
+HM3D-ABO,Image,640x480,500 scenes,Yes,10,-
+RTMV,Image,1600x1600,2000 scenes,Yes,150,-
+Things3D,Image,256x256,1.68M images,No,24,-
+MvCars,Image,1920x1080,4669 shots,Yes,7,-
+HM3D,Image,256x256,1K scenes,Yes,4,-
+MVP-N,Image,1920x1080,16K captures,Yes,20,-
+Fit3D,Video,900x900,3M images,No,16,50
+OpenTTGames,Video,1920x1080,12 sequences,Yes,7,120
+Ski-Pose PTZ,Video,256x256,10K frames,Yes,6,10
+FTV360,Video,3840x1920,8 sequences,No,40,30
+UCSD,Video,640x360,96 scenes,No,10,120
+Dynamic Scene,Video,1920x1080,12 scenes,Yes,12,60
+VSAI,Video,variable,444 images,Yes,5,25
+MultiviewC,Video,1280x720,4-5 hours,Yes,6,2
+Cityflow,Video,1920x1080,3.25 hours,Yes,40,10
+MVHumanNet,Video,1920x1080,645.1M frames,Yes,8-12,30
+IKEA ASM,Video,1080x1920,35h16min,Yes,3,24
+HumanSC3D,Video,900x900,1032 seq,Yes,4,30
+FlickrSC3D,Video,900x900,3969 images,No,4,-
+OptiTrack,Video,2048x2048,5 seq x 20s,Yes,5,30
+AMT,Video,640x480,169-457 videos/class,Yes,1 (moving),30
+MV Dynamic Human,Video,2048x1536,8-24s/seq,Yes,80,25
+BlendedMVS,Video,1920x1080,17K frames,Yes,variable,-
+FaMoS,Video,1600x1200,600K frames,Yes,16,60
+Unsyn Dyn Blender,Video,1920x1080,300 frames,Yes,14,30
+Plenoptic,Video,2028x2704,2.7K frames,Yes,18,30
+I2V-MVPD,Video,1280x720,4740 pairs,Yes,2,25
+3MDAD,Video,640x480,507 min,No,2,30
+AI City Challenge,Video,1080p,31 scenes,Yes,20,-
+VERI-Wild,Video,1920x1080,125K hours,No,174,-
+CrowdFlow,Video,1280x720,10 hours,No,2,25
+GMVD,Video,1080x1920,200 sec,Yes,5,2
+MultiviewX,Video,1080x1920,40 scenes,Yes,6,2
+MVM3D,Video,640x480,4330 pairs,No,2,10
+PersonX,Video,1024x768,100 seq,No,1 camera 36,30
+WILDTRAK,Video,1920x1080,~7x9.5 frames,Yes,7,60
+HAJJ
