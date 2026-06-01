@@ -40,8 +40,7 @@ Our survey identified **120 public multi-view datasets** published since 2018. T
 - [Contact](#contact)
 ------
 
-## 📊 Quick Overview
-#quick-overview
+## Quick Overview
 
 | Category | Number of Datasets | Key Applications |
 |----------|-------------------|------------------|
@@ -176,7 +175,7 @@ Under the following terms:
 
 ---
 
-## ✉️ Contact
+## Contact
 
 **Corresponding author:** Feten Hajri  
 📧 feten.hajri@isitcom.u-sousse.tn
@@ -187,10 +186,11 @@ Higher Institute of Computer Science and Communication Technologies (ISITCom)
 Sousse, Tunisia
 
 **Co-authors:** 
-Hajer Fradi,
+Hajer Fradi
 EuroMov Digital Health in Motion, Univ Montpellier, IMT Mines
 Ales, Ales, France.
-Mohamed Ali Mahjoub,
+
+Mohamed Ali Mahjoub
 University of Sousse, National Engineering School of Sousse (ENISo),
 4023, Sousse, Tunisia.
 ### Connect with us:
