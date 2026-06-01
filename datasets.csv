@@ -1,1 +1,88 @@
 
+Dataset,Year,Modality,Application,#Views,Resolution,Overlap,Repository
+HM3D-ABO,2022,Image,3D reconstruction,10,640x480,Yes,https://github.com/zhenpeiyang/HM3D-ABO
+RTMV,2022,Image,Novel view synthesis,150,1600x1600,Yes,https://www.cs.umd.edu/~mmeshry/projects/rtmv/
+Things3D,2020,Image,3D object reconstruction,24,256x256,No,https://github.com/hzx/Pix2Vox
+MvCars,2023,Image,Fine-grained recognition,7,1920x1080,Yes,https://github.com/PRIS-CV/MAFR
+HM3D,2021,Image,Embodied AI,4,256x256,Yes,https://github.com/facebookresearch/habitat-matterport3d-dataset
+MVP-N,2022,Image,Object classification,20,1920x1080,Yes,https://github.com/SMNURResearch/MVP-N
+DeepLesion,2018,Medical (CT),Lesion detection,volumetric,variable,N/A,https://nihcc.app.box.com/v/DeepLesion
+LIDC-IDRI,2011,Medical (CT),Lung nodule analysis,volumetric,512x512,N/A,https://www.kaggle.com/datasets/zhangweiled/lidcidri
+xView,2018,Remote Sensing,Object detection,single nadir,0.3m GSD,N/A,https://www.kaggle.com/datasets/hassanmojab/xview-dataset
+DOTA-v2.0,2021,Remote Sensing,Object detection,aerial,800-13K px,N/A,https://captain-whu.github.io/DOTA/
+WHU-Hi,2020,Remote Sensing,Land cover classification,270 hyper,5.2 km²,Yes,https://rsidea.whu.edu.cn/resource.WHUHi_sharing.htm
+SpaceNet 8,2021,Remote Sensing,Change detection,multi-temporal,0.3-0.5m GSD,N/A,https://spacenet.ai/
+Fit3D,2021,Video (Sport),3D human pose,16,900x900,No,https://fit3d.imar.ro/
+OpenTTGames,2020,Video (Sport),Table tennis analysis,7,1920x1080,Yes,https://lab.osai.ai/
+Ski-Pose PTZ,2018,Video (Sport),3D human pose,6,256x256,Yes,https://www.epfl.ch/labs/cvlab/data/ski-poseptz-dataset/
+FTV360,2019,Video (FTV),360° view synthesis,40,3840x1920,No,https://project.inria.fr/ftv360/
+UCSD,2021,Video (Novel view),View synthesis,10,640x360,No,https://cse.ucsd.edu/
+Dynamic Scene,2020,Video (Novel view),Dynamic view synthesis,12,1920x1080,Yes,https://openaccess.thecvf.com/content_CVPR_2020/papers/Yoon_Novel-View_Synthesis_of_Dynamic_Scenes_With_Globally_Coherent_Deaths-CVPR_2020_paper.pdf
+VSAI,2022,Video (Surveillance),Vehicle detection,5,variable,Yes,https://www.mdpi.com/2504-446X/6/7/161
+MultiviewC,2021,Video (Surveillance),3D object detection,7,1280x720,Yes,https://github.com/Jiahao-Ma/VFA
+Cityflow,2019,Video (Surveillance),Vehicle tracking,40,1920x1080,Yes,https://paperswithcode.com/dataset/cityflow
+MVHumanNet,2023,Video (Activity),Activity recognition,8-12,1920x1080,Yes,https://x-zhangyang.github.io/MVHumanNet/
+IKEA ASM,2021,Video (Activity),Furniture assembly,3,1080x1920,Yes,https://ikeasam.github.io/
+HumanSC3D,2021,Video (Activity),Human pose & contact,4,900x900,Yes,https://sc3d.imar.ro/
+FlickrSC3D,2021,Video (Activity),Human self-contact,4,900x900,No,https://sc3d.imar.ro/
+OptiTrack,2020,Video (Activity),Multi-person motion capture,6,2048x2048,Yes,https://github.com/zhangyuxu15/multiview_human_dataset
+AMT,2021,Video (3D Recon),3D reconstruction,1 (moving),640x480,Yes,https://henzler.github.io/unsupervised-videos/
+Multi-view Dynamic Human,2020,Video (3D Recon),Neural human rendering,80,2048x1536,Yes,https://wuninye.github.io/NHR/datasets.html
+BlendedMVS,2020,Video (3D Recon),Multi-view stereo,variable,1920x1080,Yes,https://github.com/YoY000/BlendedMVS
+FaMoS,2023,Video (3D Recon),3D head capture,16,1600x1200,Yes,https://tempel.is.tue.mpg.de/
+Unsyn Dynamic Blender,2024,Video (4D Recon),Dynamic NeRF,14,1920x1080,Yes,https://seoha-kim.github.io/sync-nerf/
+Plenoptic,2022,Video (4D Recon),4D reconstruction,18,2028x2704,Yes,https://neural-3d-video.github.io/
+I2V-MVPD,2020,Video (Traffic),Pedestrian detection,2,1280x720,Yes,https://sites.google.com/site/benkhalfaanouarl/6-datasets
+3MDAD,2020,Video (Traffic),Driver distraction,2,640x480,No,https://sites.google.com/view/ihen-alouani/datasets
+AI City Challenge,2023,Video (Traffic),Object detection,20,1080p,N/A,https://www.aicitychallenge.org/
+VERI-Wild,2019,Video (Crowd),Vehicle Re-ID,174,1920x1080,No,https://github.com/PKU-IMRE/VERI-Wild
+CrowdFlow,2018,Video (Crowd),Crowd tracking,2,1280x720,No,https://github.com/tsenst/CrowdFlow
+GMVD,2023,Video (Crowd),Pedestrian detection,5,1080x1920,Yes,https://github.com/jeetv/GMVD
+MultiviewX,2020,Video (Crowd),Person tracking,6,1080x1920,Yes,https://github.com/hou-yz/MVDet
+MVM3D,2021,Video (Crowd),3D object detection,2,640x480,No,https://github.com/DRL-CASIA/MVM3D
+PersonX,2019,Video (Crowd),Person Re-ID,36,1024x768,No,https://github.com/sxzt/Instructions-of-the-PersonX-dataset
+WILDTRAK,2018,Video (Crowd),Pedestrian detection,7,1920x1080,Yes,https://www.epfl.ch/labs/cvlab/data/data-wildtrack/
+HAJJv1,2022,Video (Crowd),Abnormal behavior detection,10,1920x1080,Yes,https://github.com/KAU-Smart-Crowd/Hajj_abnormal_behavior_detection
+CityStreet,2019,Video (Crowd),Crowd counting,5,676x380,Yes,https://visual.cs.cityu.edu.hk/downloads/citystreetdata/
+CVCS,2022,Video (Crowd),Crowd counting,100,1920x1080,Yes,https://visual.cs.cityu.edu.hk/downloads/cvcs_dataset/
+DroneCrowd,2021,Video (Crowd),Crowd counting/tracking,3,1920x1080,Yes,https://github.com/VisDrone/DroneCrowd
+Synthehile,2023,Video (Crowd),Vehicle tracking,340,1920x1080,Yes/No,https://fubel.github.io/synthehile-dataset/
+Argoverse,2019,Video (Crowd),3D tracking & prediction,7,1920x1200,Yes,https://www.argoverse.org/
+MMPTRACK,2023,Video (Crowd),People tracking,23,9.6 hours,N/A,https://iccv2021-nmp.github.io/subpage/dataset.html
+nuScenes,2020,Multi-modal,Autonomous driving,6,1600x900,No,https://www.nuscenes.org/
+BDD100K,2020,Multi-modal,Autonomous driving,1 (dashcam),720p,No,https://doc.bdd100k.com/
+EmbodiedScan,2024,Multi-modal,3D perception,1 (mobile),high,N/A,https://github.com/OpenRobotLab/EmbodiedScan
+Assembly101,2022,Multi-modal,Activity recognition,12,1920x1080,Yes,https://assembly-101.github.io/
+HOMAGE,2021,Multi-modal,Activity recognition,2-5,1.75K seq,Yes,https://github.com/nishantrai18/homage
+MEVA,2021,Multi-modal,Activity detection,39,9300 hours,N/A,https://mevadata.org/
+Rat7M,2021,Multi-modal,Rat behavior analysis,6,7M frames,Yes,https://figshare.com/articles/dataset/Rat_7M_Videos_Subject_3_-_Day_1/13764208
+CHI3D,2020,Multi-modal,Human interaction,14,631 seq,Yes,https://vision.imar.ro/ci3d
+LEMMA,2020,Multi-modal,Multi-agent activities,2,10.1 hours,No,https://sites.google.com/view/lemma-activity
+EV-ACTION,2020,Multi-modal,Human action,3,7K samples,No,https://github.com/wanglichenxj/EV-Action
+Drive&Act,2019,Multi-modal,Driver behavior,6,12 hours,No,https://www.driveandact.com/
+Skoltech3d,2023,Multi-modal,3D reconstruction,100,877K samples,Yes,https://skoltech3d.appliedai.tech/
+OmniObject3D,2023,Multi-modal,3D object understanding,100,6K objects,N/A,https://omniobject3d.github.io/
+Ortoc,2022,Multi-modal,3D reconstruction,2,847K images,Yes,http://www.ocrtec.org/
+Objectron,2021,Multi-modal,3D object detection,2-4,14819 videos,Yes,https://github.com/google-research-datasets/Objectron
+CO3D,2021,Multi-modal,3D reconstruction,20-50,1.5M frames,Yes,https://github.com/facebookresearch/co3d
+MVImgNet,2023,Multi-modal,3D reconstruction,180/360,6.5M frames,Yes,https://goplab.cuhk.edu.cn/projects/MVImgNet/
+MVPNet,2023,Multi-modal,3D point clouds,180/360,87K samples,Yes,https://goplab.cuhk.edu.cn/projects/MVImgNet/
+IMPTC,2023,Multi-modal,Traffic trajectories,6,10K frames,N/A,https://github.com/kav-institute/imptc-dataset
+VoD,2022,Multi-modal,Autonomous driving,4,8693 frames,Yes,https://intelligent-vehicles.org/datasets/view-of-delft/
+MTID,2020,Multi-modal,Traffic intersection,2,3100 frames,No,https://vap.aa.uk/mtid/
+A*3D,2020,Multi-modal,3D object detection,2,39K frames,Yes,https://github.com/I2RDL2/ASTAR-3D
+Lyft L5,2021,Multi-modal,Self-driving prediction,7,1000 hours,Yes,https://github.com/lyft/nuscenes-devkit
+DHPR,2024,Multi-modal,Driving hazard prediction,1,15K images,N/A,https://github.com/DHPR-dataset/DHPR-dataset
+WOD-PVPS,2022,Multi-modal,Panoptic segmentation,5,2860 seq,Yes,https://www.waymo.com/open
+WOD,2020,Multi-modal,Detection & tracking,5,1150 seq,Yes,https://github.com/waymo-research/waymo-open-dataset
+USyd Campus,2020,Multi-modal,3D multi-object tracking,6,135K frames,Yes,https://ieee-dataport.org/open-access/usyd-campus-dataset
+H3D,2019,Multi-modal,3D object tracking,10,160 seq,Yes,https://usa.honda-ri.com/H3D
+FatigueView,2022,Multi-modal,Drowsiness detection,5,1384 hours,Yes,https://fatigueview.github.io/
+MVOR,2018,Multi-modal (Medical),Surgical pose estimation,3,732 frames,Yes,https://github.com/CAMMA-public/MVOR/
+MMCSD,2024,Multi-modal (Medical),Cervical spondylosis,multi-planar,500 patients,N/A,https://github.com/sjyzy/CSMD
+RadImageNet-VQA,2025,Multi-modal (Medical),Medical VQA,variable,7.5M QA pairs,N/A,https://huggingface.co/datasets/raidium/RadImageNet-VQA
+MMXU,2025,Multi-modal (Medical),Multi-X-ray understanding,2,12547 cases,N/A,https://github.com/linjiemu/MMXU
+UniMed,2024,Multi-modal (Medical),Medical VLM pre-training,multi-modal,1M pairs,N/A,https://github.com/mbzuai-oryx/UniMed-CLIP
+SensatUrban,2021,Multi-modal (RS),Urban 3D segmentation,1,7.6 km²,N/A,https://github.com/QingyongHu/SensatUrban
+OmniCity,2023,Multi-modal (RS),Cross-view understanding,multi-scale,100K+ images,Yes,https://city-super.github.io/omnicity/
+MVTec 3D-AD,2021,Multi-modal (AD),3D anomaly detection,1,4147 scans,No,https://www.mvtec.com/company/research/datasets/mvtec-3d-ad
