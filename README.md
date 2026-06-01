@@ -35,17 +35,6 @@ Our survey identified **120 public multi-view datasets** published since 2018. T
 - [Domain-Specific Recommendations](#domain-specific-recommendations)
 - [Cross-Modal Annotations](#cross-modal-annotations)
 - [How to Cite](#how-to-cite)
-
-## 📚 Table of Contents
-
-- [Quick Overview](#quick-overview)
-- [Dataset Statistics](#dataset-statistics)
-- [Dataset Selection Decision Framework](#dataset-selection-decision-framework)
-- [Repository Contents](#repository-contents)
-- [How to Use This Resource](#how-to-use-this-resource)
-- [Domain-Specific Recommendations](#domain-specific-recommendations)
-- [Cross-Modal Annotations](#cross-modal-annotations)
-- [How to Cite](#how-to-cite)
 - [Contributing](#contributing)
 - [License](#license)
 - [Contact](#contact)
@@ -160,6 +149,9 @@ If you use this resource for your research, please cite our paper:
   year={2026},
   publisher={Springer}
 }
+
+---
+
 ## 🤝 Contributing
 
 This is a **living resource**. To add a new multi-view dataset or correct an entry:
@@ -208,8 +200,13 @@ University of Sousse
 Higher Institute of Computer Science and Communication Technologies (ISITCom)  
 Sousse, Tunisia
 
-**Co-authors:** (add your co-authors' affiliations as needed)
-
+**Co-authors:** 
+Hajer Fradi,
+EuroMov Digital Health in Motion, Univ Montpellier, IMT Mines
+Ales, Ales, France.
+Mohamed Ali Mahjoub,
+University of Sousse, National Engineering School of Sousse (ENISo),
+4023, Sousse, Tunisia.
 ### Connect with us:
 - GitHub Issues: For questions about the repository
 - Email: For direct correspondence about the paper
