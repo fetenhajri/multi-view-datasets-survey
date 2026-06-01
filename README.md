@@ -134,6 +134,7 @@ Datasets that support vision-language and multi-modal reasoning:
 | EmbodiedScan [72] | RGB-D + Language | 3D boxes, semantic occupancy, language prompts |
 | Assembly101 [73] | RGB + Depth | Fine-grained actions, 3D hand poses |
 | UniMed [104] | Multi-modal medical + Text | 1M image-text pairs |
+|Drive&Act [80]|RGB, IR,depth,Skeleton|Hierarchical action labels,atomic action units,behavior taxonomy|
 
 ---
 
