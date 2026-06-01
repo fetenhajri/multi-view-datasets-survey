@@ -36,4 +36,4 @@ MultiviewX,Video,1080x1920,40 scenes,Yes,6,2
 MVM3D,Video,640x480,4330 pairs,No,2,10
 PersonX,Video,1024x768,100 seq,No,1 camera 36,30
 WILDTRAK,Video,1920x1080,~7x9.5 frames,Yes,7,60
-HAJJ
+HAJJ,Video,1x1,1x1 frames,YN,1,1
