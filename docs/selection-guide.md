@@ -140,3 +140,21 @@ Before selecting a dataset, verify:
 ## Step 5: Use Our Decision Flowchart
 
 Refer to **Fig. 2** in the paper or in the main README for a visual decision tree.
+
+---
+
+## Quick Reference Table
+
+| If you need... | Choose... |
+|----------------|-----------|
+| Largest multi-view dataset | MVHumanNet [3] (645M frames) |
+| Best for BEV perception | nuScenes [70] |
+| Medical VQA | RadImageNet-VQA [102] |
+| Aerial object detection | xView [64] or DOTA [65] |
+| Synthetic with perfect GT | GMVD [52] or CVCS [60] |
+| 3D object reconstruction | CO3D [84] or OmniObject3D [81] |
+| Multi-modal fusion | HOMAGE [74] (12 sensors) |
+
+---
+
+*Reference: Section 5.5 of "A Comprehensive Review of Multi-View Datasets and Applications", The Visual Computer, 2026*
