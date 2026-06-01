@@ -36,4 +36,13 @@ MultiviewX,Video,1080x1920,40 scenes,Yes,6,2
 MVM3D,Video,640x480,4330 pairs,No,2,10
 PersonX,Video,1024x768,100 seq,No,1 camera 36,30
 WILDTRAK,Video,1920x1080,~7x9.5 frames,Yes,7,60
-HAJJ,Video,1x1,1x1 frames,YN,1,1
+HAJJv1 [57] ,Video,1920×1080,18 seq,Yes,10,25
+CityStreet [58][59],-,676×380,1 hour (2.7K),Yes,5,30
+CVCS [60],-, 1920×1080,31sequences,No,100,100
+DroneCrowd [61],-, 1920 ×1080,33600 frames,Yes,3,25
+DeepLesion [62],-,variable, 32.735 lesions,Yes,volumetric
+LIDC-IDRI [63],-,512×512, 1018CTscans,Yes,volumetric
+xView [64],-,0.3mGSD 1,400km²,No,singlenadir
+DOTA-v2.0 [65],-,800–13K px, 11268 images–aerial camera,-
+WHU-Hi [66],-,hyperspectral 5.2 km²,Yes,270 hyperspectral,-
+SpaceNet 8 [67],-,0.3-0.5m GSD 850 km²,-, multitemporal,-
