@@ -74,6 +74,7 @@ Use our decision flowchart (Fig. 2 from the paper) to select the right dataset:
 *Figure 2: Dataset selection decision framework.*
 
 📌 **All dataset names include reference numbers** to locate descriptions in the paper.
+📥 **Download high-resolution version:** [PDF](assets/fig2_decision_flowchart.pdf)
 
 ---
 
