@@ -3,7 +3,7 @@ An extensive collection of more than 120 multi-view datasets with links, modalit
 
 [![DOI](https://img.shields.io/badge/DOI-10.1007/s00371-026-xxxxx-blue)](https://doi.org/10.1007/s00371-026-xxxxx)
 [![Paper](https://img.shields.io/badge/Paper-Springer-red)](https://link.springer.com/article/xxx)
-[![Datasets](https://img.shields.io/badge/Datasets-120-green)](datasets.csv)
+[![Datasets](https://img.shields.io/badge/Datasets-87-green)](datasets.csv)
 [![License](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey)](LICENSE)
 
 > **A Comprehensive Review of Multi-View Datasets and Applications**  
@@ -16,7 +16,7 @@ This repository provides a **living resource** of multi-view datasets for comput
 
 ## 📚 What is this repository?
 
-Our survey identified **120 public multi-view datasets** published since 2018. This repository provides:
+Our survey identified **87 public multi-view datasets** published since 2018. This repository provides:
 
 - ✅ A **searchable CSV file** of all datasets with links, modalities, and tasks
 - ✅ A **decision flowchart** (Fig. 2) to select the right dataset
@@ -44,25 +44,23 @@ Our survey identified **120 public multi-view datasets** published since 2018. T
 
 | Category | Number of Datasets | Key Applications |
 |----------|-------------------|------------------|
-| 🖼️ Single-modality Images | ~15 | 3D reconstruction, novel view synthesis |
-| 🎥 Single-modality Videos | ~50 | Activity recognition, surveillance, sports |
-| 🔀 Multi-modal | ~45 | Autonomous driving, medical imaging, robotics |
-| 🏥 Medical | ~7 | CT/MRI analysis, VQA |
-| 🛰️ Remote Sensing | ~6 | Aerial/Satellite object detection |
-| **TOTAL** | **~120+** | |
+| 🖼️ Single-modality Images | 11 | 3D reconstruction, novel view synthesis, medical |
+| 🎥 Single-modality Videos | 35 | Activity recognition, surveillance, sports |
+| 🔀 Multi-modal | ~39 | Autonomous driving, medical imaging, robotics |
+| **TOTAL** | **~85+** | |
 
 ---
 
 ## Dataset Statistics
 
-- **120+ datasets** reviewed
+- **85+ datasets** reviewed
 - **Release years:** 2018–2025
 - **Most represented applications:** 
-  - Autonomous driving (12+)
-  - Activity recognition (10+)
-  - 3D reconstruction (9+)
-  - Crowd analysis (8+)
-  - Medical imaging (7+)
+  - Traffic & Autonomous driving (14)
+  - Activity recognition (12)
+  - 3D reconstruction (12)
+  - Crowd analysis (14)
+  - Medical imaging (10)
 - **Fastest growing category:** Multi-modal vision-language (2023–2025)
 
 ---
@@ -70,6 +68,10 @@ Our survey identified **120 public multi-view datasets** published since 2018. T
 ## Dataset Selection Decision Framework
 
 Use our decision flowchart (Fig. 2 from the paper) to select the right dataset:
+
+![Dataset Selection Decision Flowchart](assets/fig2_decision_flowchart.png)
+
+*Figure 2: Dataset selection decision framework.*
 
 📌 **All dataset names include reference numbers** to locate descriptions in the paper.
 
@@ -79,7 +81,7 @@ Use our decision flowchart (Fig. 2 from the paper) to select the right dataset:
 
 | File | Description |
 |------|-------------|
-| [`datasets.csv`](datasets.csv) | **Master list** of 120+ datasets with columns: Name, Year, Modality, Application, #Views, Resolution, Overlap, Link |
+| [`datasets.csv`](datasets.csv) | **Master list** of 85+ datasets with columns: Name, Year, Modality, Application, #Views, Resolution, Overlap, Link |
 | [`tables/table1_single_modality.csv`](tables/table1_single_modality.csv) | Single-modality image & video datasets (Table 1 from paper) |
 | [`tables/table2_multi_modality.csv`](tables/table2_multi_modality.csv) | Multi-modal datasets (Table 2 from paper) |
 | [`tables/table13_cross_domain.csv`](tables/table13_cross_domain.csv) | Cross-domain comparison (Table 13) |
@@ -123,18 +125,18 @@ Use our decision flowchart (Fig. 2 from the paper) to select the right dataset:
 ---
 
 ## Cross-Modal Annotations
-#cross-modal-annotations
-Datasets that support vision-language and multi-modal reasoning:
+The table below is adapted from **Table 14** of the paper (*"Rich cross-modal annotations supporting advanced multi-modal reasoning"*). These datasets enable vision-language tasks such as visual question answering, language-guided 3D scene understanding, and cross-modal retrieval.
 
 | Dataset | Modalities | Annotation Type |
 |---------|-----------|----------------|
-| MVHumanNet [3] | RGB + Text | Human masks, SMPL parameters, text descriptions |
-| RadImageNet-VQA [102] | CT/MRI + QA pairs | 7.5M medical question-answer pairs |
+| MVHumanNet [3] | RGB + Text | Human masks, 3D keypoints, SMPL parameters, text descriptions |
+| RadImageNet-VQA [102] | CT/MRI + QA pairs | Medical question-answer pairs, diagnostic descriptions |
 | EmbodiedScan [72] | RGB-D + Language | 3D boxes, semantic occupancy, language prompts |
-| Assembly101 [73] | RGB + Depth | Fine-grained actions, 3D hand poses |
-| UniMed [104] | Multi-modal medical + Text | 1M image-text pairs |
+| Assembly101 [73] | RGB + Depth | Fine-grained actions, 3D hand poses, object interactions  |
+| UniMed [104] | Multi-modal medical + Text | image-text pairs |
 |Drive&Act [80]|RGB, IR,depth,Skeleton|Hierarchical action labels,atomic action units,behavior taxonomy|
 
+See paper Table 14 for a complete description of cross-modal annotations.
 ---
 
 ## Contributing 🤝
