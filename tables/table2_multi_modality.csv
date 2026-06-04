@@ -1,1 +1,40 @@
-
+Dataset,Resolution,Size,Overlap,Cameras/Views,fps
+nuScenes,1600x900,15 hours,No,6,12
+BDD100K,720p,100K sequences,No,1 camera/vehicle,30
+EmbodiedScan,high,5K images,No,1 mobile camera,30
+Assembly101,1920x1080,513 hours,Yes,12,30
+HOMAGE,--,1.75K sequences,Yes,5,30
+MEVA,1920x1080,9300 hours,Yes,39,30
+Rat 7M,--,7M frames,Yes,6,100
+CHI3D,--,631 sequences,Yes,4,50
+LEMMA,--,10.1 hours,No,4,24
+EV-ACTION,1920x1080,7K samples,No,3 sensors,30
+Drive&Act,1280x1024,12 hours,No,6,30
+Skoltech3d,--,877K samples,Yes,100,30
+OmniObject3D,800x800,--,Yes,100,No
+Ocrtoc,1280x720,847K images,Yes,2,30
+Objectron,1920x1080,14819 videos,Yes,2-4,30
+Co3D,800x800,1.5M frames,Yes,20-50 views,30
+MVImgNet+MVPNet,--,6.5M frames,Yes,180°/360°,30
+IMPTC,4096x2160,8 hours,No,6,25
+VoD,1936x1216,8693 frames,Yes,4,30
+MTID,VGA,3100 frames,No,2,30
+A*3D,2048x1536,39K frames,Yes,2,5.9
+Lyft L5,high,1K hours,Yes,3,10
+DHPR,--,15K images,Yes,8-12 cameras,30
+WOD-PVPS,641x961,2860 sequences,Yes,5,10
+WOD,1000x5875,1150 seq x 20s,Yes,10,10
+USyd Campus,--,135K frames,Yes,6,10
+H3D,1920x1200,160 sequences,Yes,3,30
+FatigueView,640x480,1384 hours,Yes,5,25
+Synthehicle,1920x1080,17 hours,Yes/No,340,10
+Argoverse,1920x1200,320 hours,Yes,9,30
+MMPTRACK,--,9.6 hours,Yes,23,15
+MVTec 3D-AD,1920x1200,4147 scans,No,3D sensor,--
+MVOR,640x480,732 frames,Yes,3 RGB-D camera,20
+MMCSD,variable,200 subjects,Yes,multi-planar/modal,--
+RadImageNet-VQA,variable,7.5M QA pairs,--,cross-modal,--
+MMXU,variable,12547 cases,--,longitudinal pairs,--
+UniMed,multi-resolution,1M image-text,--,multi-modal,--
+SensatUrban,20cm GSD,7.6 km²,Yes,RGB+3D point cloud,--
+OmniCity,multi-scale,100K+ images,Yes,satellite/UAV/street,--
