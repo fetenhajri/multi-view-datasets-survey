@@ -1,5 +1,4 @@
-
-Dataset,Category,Resolution,Size,Overlap,Cameras/Views,fps
+Dataset,Category,Resolution,Size,Overlap,Cameras,Views,fps
 HM3D-ABO,Image,640x480,500 scenes,Yes,10,-
 RTMV,Image,1600x1600,2000 scenes,Yes,150,-
 Things3D,Image,256x256,1.68M images,No,24,-
@@ -20,7 +19,7 @@ IKEA ASM,Video,1080x1920,35h16min,Yes,3,24
 HumanSC3D,Video,900x900,1032 seq,Yes,4,30
 FlickrSC3D,Video,900x900,3969 images,No,4,-
 OptiTrack,Video,2048x2048,5 seq x 20s,Yes,5,30
-AMT,Video,640x480,169-457 videos/class,Yes,1 (moving),30
+AMT,Video,640x480,169-457 videos/class,Yes,1 moving,30
 MV Dynamic Human,Video,2048x1536,8-24s/seq,Yes,80,25
 BlendedMVS,Video,1920x1080,17K frames,Yes,variable,-
 FaMoS,Video,1600x1200,600K frames,Yes,16,60
@@ -35,14 +34,14 @@ GMVD,Video,1080x1920,200 sec,Yes,5,2
 MultiviewX,Video,1080x1920,40 scenes,Yes,6,2
 MVM3D,Video,640x480,4330 pairs,No,2,10
 PersonX,Video,1024x768,100 seq,No,1 camera 36 angles,30
-WILDTRAK,Video,1920x1080,~7x9.5 frames,Yes,7,60
-HAJJv1 [57],Video,1920×1080,18 seq,Yes,10,25
-CityStreet [58][59],-,676×380,1 hour (2.7K),Yes,5,30
-CVCS [60],-,1920×1080,31sequences,No,100,100
-DroneCrowd [61],-,1920×1080,33600frames,Yes,3,25
-DeepLesion [62],-,variable,32.735lesions,Yes,volumetric
-LIDC-IDRI [63],-,512×512,1018CTscans,Yes,volumetric
-xView [64],-,0.3mGSD 1,400km²,No,singlenadir
-DOTA-v2.0 [65],-,800–13K px,11268 images–aerial-camera,-
-WHU-Hi [66],-,hyperspectral 5.2 km²,Yes,270hyperspectral,-
-SpaceNet 8 [67],-,0.3-0.5m GSD 850 km²,-, multitemporal,-
+WILDTRAK,Video,1920x1080,7x9.5 frames,Yes,7,60
+HAJJv1,Video,1920x1080,18 seq,Yes,10,25
+CityStreet,Video,676x380,1 hour,Yes,5,30
+CVCS,Video,1920x1080,31 sequences,No,100,100
+DroneCrowd,Video,1920x1080,33600 frames,Yes,3,25
+DeepLesion,Medical,variable,32735 lesions,Yes,volumetric,-
+LIDC-IDRI,Medical,512x512,1018 CT scans,Yes,volumetric,-
+xView,Remote Sensing,0.3m GSD,1400 km2,No,single nadir,-
+DOTA-v2.0,Remote Sensing,800-13K px,11268 images,aerial camera,-
+WHU-Hi,Remote Sensing,hyperspectral,5.2 km2,Yes,270 hyper,-
+SpaceNet 8,Remote Sensing,0.3-0.5m GSD,850 km2,multi-temporal,-
