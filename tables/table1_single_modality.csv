@@ -1,4 +1,4 @@
-Dataset,Category,Resolution,Size,Overlap,Cameras,Views,fps
+Dataset,Category,Resolution,Size,Overlap,Cameras/Views,fps
 HM3D-ABO,Image,640x480,500 scenes,Yes,10,-
 RTMV,Image,1600x1600,2000 scenes,Yes,150,-
 Things3D,Image,256x256,1.68M images,No,24,-
