@@ -180,8 +180,8 @@ Under the following terms:
 ## Contact
 
 **Corresponding author:** Feten Hajri  
-📧 feten.hajri@isitcom.u-sousse.tn
-
+📧 feten.hajri@issatso.u-sousse.tn
+fetenhajri@gmail.com
 **Institution:**  
 University of Sousse  
 Higher Institute of Computer Science and Communication Technologies (ISITCom)  
