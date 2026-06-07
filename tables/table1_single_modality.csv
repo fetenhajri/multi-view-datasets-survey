@@ -6,7 +6,7 @@ MvCars,Image,1920x1080,4669 shots,Yes,7,-
 HM3D,Image,256x256,1K scenes,Yes,4,-
 MVP-N,Image,1920x1080,16K captures,Yes,20,-
 Fit3D,Video,900x900,3M images,No,16,50
-OpenTTGames,Video,1920x1080,12 sequences,Yes,7,120
+OpenTTGames,Video,1920x1080,12 sequences each 25 frames,Yes,7,120
 Ski-Pose PTZ,Video,256x256,10K frames,Yes,6,10
 FTV360,Video,3840x1920,8 sequences,No,40,30
 UCSD,Video,640x360,96 scenes,No,10,120
@@ -16,25 +16,25 @@ MultiviewC,Video,1280x720,4-5 hours,Yes,6,2
 Cityflow,Video,1920x1080,3.25 hours,Yes,40,10
 MVHumanNet,Video,1920x1080,645.1M frames,Yes,8-12,30
 IKEA ASM,Video,1080x1920,35h16min,Yes,3,24
-HumanSC3D,Video,900x900,1032 seq,Yes,4,30
+HumanSC3D,Video,900x900,1032 sequences,Yes,4,30
 FlickrSC3D,Video,900x900,3969 images,No,4,-
-OptiTrack,Video,2048x2048,5 seq x 20s,Yes,5,30
-AMT,Video,640x480,169-457 videos/class,Yes,1 moving,30
-MV Dynamic Human,Video,2048x1536,8-24s/seq,Yes,80,25
+OptiTrack,Video,2048x2048,5 seq x 20 seconds,Yes,5,30
+AMT,Video,640x480,169-457 videos per class,Yes,variable,30
+MV Dynamic Human,Video,2048x1536,8-24 seconds per sequence,Yes,80,25
 BlendedMVS,Video,1920x1080,17K frames,Yes,variable,-
 FaMoS,Video,1600x1200,600K frames,Yes,16,60
 Unsyn Dyn Blender,Video,1920x1080,300 frames,Yes,14,30
 Plenoptic,Video,2028x2704,2.7K frames,Yes,18,30
-I2V-MVPD,Video,1280x720,4740 pairs,Yes,2,25
-3MDAD,Video,640x480,507 min,No,2,30
+I2V-MVPD,Video,1280x720,4740 pairs frames,Yes,2,25
+3MDAD,Video,640x480,507 minutes,No,2,30
 AI City Challenge,Video,1080p,31 scenes,Yes,20,-
-VERI-Wild,Video,1920x1080,125K hours,No,174,-
+VERI-Wild,Video,1920x1080,125280 hours,No,174,-
 CrowdFlow,Video,1280x720,10 hours,No,2,25
-GMVD,Video,1080x1920,200 sec,Yes,5,2
+GMVD,Video,1080x1920,200 seconds,Yes,5,2
 MultiviewX,Video,1080x1920,40 scenes,Yes,6,2
-MVM3D,Video,640x480,4330 pairs,No,2,10
-PersonX,Video,1024x768,100 seq,No,1 camera 36 angles,30
-WILDTRAK,Video,1920x1080,7x9.5 frames,Yes,7,60
+MVM3D,Video,640x480,4330 pairs of images,No,2,10
+PersonX,Video,1024x768,100 sequences,No,1 camera 36 angles,30
+WILDTRACK,Video,1920x1080,7x9.5 frames,Yes,7,60
 HAJJv1,Video,1920x1080,18 seq,Yes,10,25
 CityStreet,Video,676x380,1 hour,Yes,5,30
 CVCS,Video,1920x1080,31 sequences,No,100,100
@@ -42,6 +42,6 @@ DroneCrowd,Video,1920x1080,33600 frames,Yes,3,25
 DeepLesion,Medical,variable,32735 lesions,Yes,volumetric,-
 LIDC-IDRI,Medical,512x512,1018 CT scans,Yes,volumetric,-
 xView,Remote Sensing,0.3m GSD,1400 km2,No,single nadir,-
-DOTA-v2.0,Remote Sensing,800-13K px,11268 images,aerial camera,-
-WHU-Hi,Remote Sensing,hyperspectral,5.2 km2,Yes,270 hyper,-
-SpaceNet 8,Remote Sensing,0.3-0.5m GSD,850 km2,multi-temporal,-
+DOTA-v2.0,Remote Sensing,800-13K px,11268 images,--,aerial camera,-
+WHU-Hi,Remote Sensing,hyperspectral,5.2 km2,Yes,270 hyperspectral,-
+SpaceNet 8,Remote Sensing,0.3-0.5m GSD,850 km2,--,multi-temporal,-
