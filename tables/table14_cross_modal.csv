@@ -1,1 +1,8 @@
 
+Dataset,Primary modalities,Cross-modal annotation types,Supported reasoning tasks
+MVHumanNet,"RGB, camera parameters","Human masks, 3D keypoints, SMPL parameters, textual descriptions","View-consistent action recognition, human NeRF reconstruction, text-driven generation"
+RadImageNet-VQA,"CT/MRI, text","7.5M question-answer pairs, diagnostic descriptions","Medical visual question answering, report generation, cross-modal retrieval"
+EmbodiedScan,"RGB-D, language","3D oriented boxes, semantic occupancy, language prompts","3D scene understanding, language-guided navigation, object referral"
+Assembly101,"Multi-view RGB, depth","Fine-grained action segments, 3D hand poses, object interactions","Action anticipation, step-by-step reasoning, multi-view activity understanding"
+UniMed,"Multi-modal medical images, text","Image-text pairs across imaging modalities","Medical VLM pre-training, cross-modal diagnosis, zero-shot transfer"
+Drive&Act,"RGB, IR, depth, Skeleton","Hierarchical action labels, atomic action units, behavior taxonomy","Driver monitoring, distraction analysis, causal reasoning"
