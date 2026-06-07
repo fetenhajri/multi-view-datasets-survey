@@ -1,1 +1,14 @@
-
+Application domain,Collection cost,Annotation difficulty,Generalization capability,Typical dataset,Recommended algorithm types
+Autonomous Driving,Very high,Very high,Moderate,"Multi-camera street-level videos, often with LiDAR; dynamic scenes, varying weather/lighting","BEV Transformers, Multi-modal fusion networks, Temporal models"
+Human Pose Estimation,"Medium (lab) to High (wild)",High,"Limited (controlled) to Moderate (wild)","Synchronized multi-view videos with 2D/3D keypoints","Volumetric CNNs, Cross-view Transformers, Differentiable rendering"
+Crowd Analysis,Low to Medium,Medium,"Low to Moderate (Scene-dependent)","Overhead or angled surveillance video; dense crowds","Graph Neural Networks, Social force models, Density estimation"
+Sport Analytics,High,High,"Low (Sport-specific)","Synchronized multi-view video from fixed stadium cameras; player trajectories and events","Player re-identification models, Spatio-temporal GNNs, Top-down pose estimators"
+FTV (Free-Viewpoint TV),Very high,Medium,Moderate,"Dense camera rigs for dynamic human performances; high-resolution, synchronized","Neural radiance fields (NeRF), Light field rendering, Multi-view video compression"
+Novel View Synthesis,High,Low (unsupervised),Often low (per-scene),"Dense camera arrays or light stage captures; static or dynamic objects","Neural Radiance Fields (NeRF), Plenoxels, Multi-plane image models"
+Surveillance Applications,Low-Medium,Medium,Low-Moderate,"Fixed camera geometry; limited scene diversity; viewpoint-dependent occlusion","Multi-object tracking, Cross-camera re-ID, Anomaly detection models"
+Activity Recognition,Medium,High,Moderate,"Multi-view videos of human activities; labeled with action segments and interactions","3D CNNs, Spatio-temporal transformers, Multi-view fusion networks"
+3D & 4D Reconstruction,High,"(3D) Medium to (4D) High","(3D) Moderate to (4D) Low","Multi-view images/videos with 3D ground truth (meshes/point clouds); often synthetic or scanned","Structure-from-Motion, Multi-view stereo, Dynamic NeRF, Non-rigid reconstruction"
+Object Detection,Medium,High,Moderate,"Multi-view images with 2D/3D bounding boxes; varying occlusion and viewpoint","Multi-view detection transformers, Frustum-based networks, Cross-view ROI pooling"
+Robotics,Medium,High,Low-Moderate (task-specific),"Egocentric or fixed multi-view scenes with action/state labels; often in simulation","Imitation learning, Multi-view policy networks, Visual reinforcement learning"
+Medical Imaging,Very high,Very high,"Low (modality/anatomy-specific)","Multi-view/multi-modal scans (MRI, CT, X-ray); expert-annotated masks or landmarks","Multi-view UNets, Attention-based fusion, Deformable registration networks"
+Remote Sensing,High,Medium,"Moderate (sensor/region-dependent)","Satellite/aerial multi-view imagery; multi-spectral or SAR data; georeferenced","Siamese networks, Change detection transformers, Multi-view stereo for DSM"
